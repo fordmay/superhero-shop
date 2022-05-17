@@ -11,3 +11,14 @@
 .button--full{
   display: block;
 }
+
+.user-comment {
+  max-width: 486px;
+  height: 92px;
+}
+.user-comment__border{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
