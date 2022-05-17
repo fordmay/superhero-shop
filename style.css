@@ -1,4 +1,4 @@
-.button{
+A.button{
   padding:5px 15px;
   border:1px solid black;
   border-radius: 10px;
@@ -14,11 +14,43 @@
 
 .user-comment {
   max-width: 486px;
-  height: 92px;
+  min-height: 92px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: black;
 }
 .user-comment__border{
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  border: 1px solid gray;
+  border: 1px solid #DBDBDB;
+}
+.user-comment__user-info{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 12px;
+  margin-top: 9px;
+}
+.user-comment__user-info__userName{
+  font-weight: bold;
+  margin-left: 9px;
+}
+.user-comment__user-info__button{
+  width: 49px;
+  height: 18px;
+  border-radius: 9px;
+  margin-left: 7px;
+}
+.user-comment__user-info__rating{
+  width: 108px;
+  height: 18px;
+  margin-left: 7px;
+}
+.user-comment__user-info__timeAgo{
+  color: #9A9A9A;
+  font-style: italic;
+  margin-left: 7px;
+}
+.user-comment__text{
+  margin: 11px 22px;
 }
