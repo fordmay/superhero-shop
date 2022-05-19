@@ -29,3 +29,26 @@
   width:100%;
   height: 400px;
 }
+
+.headingX{
+  color: black;
+
+}
+.heading1__adminname{
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 500;
+
+}
+.heading3__adresses{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+
+}
+.heading4__cards{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+
+}
