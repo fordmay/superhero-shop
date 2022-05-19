@@ -11,3 +11,11 @@
 .button--full{
   display: block;
 }
+
+.common-card {}
+.common-card__content {
+  padding: 24px;
+  border-radius: 35px;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
