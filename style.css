@@ -9,7 +9,7 @@ a {text-decoration: none;}
 }
 
 .header__logo {
-  min-width: 150px;
+  width: 200px;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -50,7 +50,7 @@ a {text-decoration: none;}
 }
 
 .header__control {
-  min-width: 190px;
+  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
