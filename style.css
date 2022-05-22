@@ -1,5 +1,23 @@
 a {text-decoration: none;}
 
+.page-block {
+  padding: 50px 0;
+}
+
+.page-block__content{
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 10px;
+}
+
+.page-block__heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* --------------------------------- */
+
+
 .header {
   height: 60px;
   background-color: #222222;
