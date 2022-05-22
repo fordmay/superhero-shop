@@ -85,4 +85,5 @@ function textSlash (){
 			contenteditable.setAttribute("contenteditable", true);
 		}
 	});
-}textSlash();
+}
+textSlash();
