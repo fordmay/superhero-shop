@@ -141,3 +141,26 @@ a {text-decoration: none;}
   font-weight: 700;
 
 }
+/* client-address start */
+.client-address {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: #000000;
+}
+.client-address_contacts {
+  display: block;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+  padding: 21px 0 25px 38px;
+}
+.client-address_contacts-name {
+  font-weight: 700;
+}
+.client-address_contacts-address {
+  font-weight: 500;
+}
+.kebab-icon {
+  padding-top: 20px;
+}
+/* client-address end */
