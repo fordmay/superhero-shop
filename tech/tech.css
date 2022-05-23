@@ -30,6 +30,11 @@
   height: 400px;
 }
 
+.common-form{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+}
 .row-full{
   width: 100%;
 }
