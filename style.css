@@ -141,3 +141,63 @@ a {text-decoration: none;}
   font-weight: 700;
 
 }
+.techBlock{
+  position: relative;
+}
+.bottom_menu {
+  margin-top: 5px;
+  position: absolute;
+  width: 1280px;
+  height: 1280px;
+}
+
+.bottom_menu_logo {
+  position: absolute;
+  top: 60px;
+  margin-left: 18px;
+  bottom: 16px;
+  color: #fff;
+  border: 2px solid dimgrey;
+  width: 230px;
+  height: 58px;
+  background: #C4C4C4;
+}
+.bottom_logo_name {
+  color: black;
+  position: absolute;
+  top: 19px;
+  left: 98px;
+  font-size: 14px;
+}
+
+.bottom_menu_text {
+  position: absolute;
+  top: 140px;
+  left: 20px;
+  color: #7C7C7C;
+  font-size: 12px;
+}
+
+.bottom_menu_img {
+  position: absolute;
+  top: 180px;
+  display: flex;
+  left: 12px;
+}
+.bottom_menu1, .bottom_menu2, .bottom_menu3 {
+  margin-right: 18px;
+}
+
+.bottom_menu_table {
+  position: absolute;
+  top: 60px;
+  left: 700px;
+  width: 100%;
+  font-size: 14px;
+  color: black;
+}
+
+.bottom_menu_table tr, td {
+  padding: 10px 35px;
+}
+
