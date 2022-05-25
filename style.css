@@ -190,7 +190,6 @@ a {text-decoration: none;}
 
 }
 
-
 .common-form2{
   border: 1px solid blue;
   background-color: white;
@@ -262,3 +261,39 @@ a {text-decoration: none;}
   background-color: #DBDBDB;
   border: none;
 }
+
+/* Block form-wysiwyg */
+.tox .tox-editor-container{
+	padding: 6px 15px;
+}
+.tox:not(.tox-tinymce-inline) .tox-editor-container .tox-editor-header {
+	border-bottom: 1px solid #DBDBDB;
+	box-shadow: none;
+	padding: 0;
+}
+.tox .tox-toolbar__primary .tox-toolbar__group{
+	padding: 0;
+}
+.tox-toolbar__primary .tox-toolbar__group .tox-tbtn{
+	transition: background-color 0.3s ease;
+}
+.tox-toolbar__group .tox-tbtn{
+	cursor: pointer;
+}
+.tox-sidebar-wrap .tox-edit-area{
+	min-height: 65px;
+}
+.mce-content-body[data-mce-placeholder]:not(.mce-visualblocks)::before {
+	pointer-events: none;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #DBDBDB;
+}
+.mce-content-body p,
+.mce-content-body ul{
+	margin: 5px 0;
+}
+/* End block form-wysiwyg */
